@@ -1,0 +1,61 @@
+//CIRCULAR LED LIGHTING
+const int redledPin=13;
+const int blueledPin1=12;
+const int greenledPin1=11;
+const int yellowledPin=10;
+const int blueledPin2=9;
+const int greenledPin2=8;
+
+void setup (){
+pinMode (13,OUTPUT);
+  pinMode (12,OUTPUT);
+  pinMode (11,OUTPUT);
+  pinMode (10,OUTPUT);
+  pinMode (9,OUTPUT);
+  pinMode (8,OUTPUT);
+}
+void loop(){
+digitalWrite(13,HIGH);
+digitalWrite (12,LOW);
+digitalWrite (11,LOW);
+digitalWrite (10,LOW);
+digitalWrite (9,LOW);
+digitalWrite (8,LOW);
+  delay (50);
+  digitalWrite(13,LOW);
+digitalWrite (12,HIGH);
+digitalWrite (11,LOW);
+digitalWrite (10,LOW);
+digitalWrite (9,LOW);
+digitalWrite (8,LOW);
+  delay (50);
+   digitalWrite(13,LOW);
+digitalWrite (12,LOW);
+digitalWrite (11,HIGH);
+digitalWrite (10,LOW);
+digitalWrite (9,LOW);
+digitalWrite (8,LOW);
+  delay (50);
+  digitalWrite(13,LOW);
+digitalWrite (12,LOW);
+digitalWrite (11,LOW);
+digitalWrite (10,HIGH);
+digitalWrite (9,LOW);
+digitalWrite (8,LOW);
+  delay (50);
+  digitalWrite(13,LOW);
+digitalWrite (12,LOW);
+digitalWrite (11,LOW);
+digitalWrite (10,LOW);
+digitalWrite (9,HIGH);
+digitalWrite (8,LOW);
+  delay (50);
+   digitalWrite(13,LOW);
+digitalWrite (12,LOW);
+digitalWrite (11,LOW);
+digitalWrite (10,LOW);
+digitalWrite (9,LOW);
+digitalWrite (8,HIGH);
+  delay (50);
+  
+}
